@@ -1,0 +1,12 @@
+claw_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: claw
+    joint_speed: 3.0
+    motor:
+        id: 3
+        init: 0
+        min: 194
+        max: 988
